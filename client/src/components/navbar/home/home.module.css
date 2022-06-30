@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  /* height: 100vh; */
+  background-image: url("https://images.pexels.com/photos/1060489/pexels-photo-1060489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* z-index: -1; */
+
+  height: 100vh;
+
+  /* color: white; */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/1060489/pexels-photo-1060489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+      no-repeat center center / cover;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+  rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  /* background-color: red; */
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  transform: translate(-50%, -50%);
+}
